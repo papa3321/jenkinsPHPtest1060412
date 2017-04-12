@@ -1,7 +1,8 @@
-<?
-class Home_Controller extends Base_Controller {
-  public function action_index()
-  {
-      return View::make('home.index');
-  }
-}
+<html>
+	<head>
+		<title>PHP Test</title>
+	</head>
+	<body>
+		<?php echo '<p>Hello World test NO.1</p>'; ?> 
+	</body>
+</html>
